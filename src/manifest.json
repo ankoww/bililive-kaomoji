@@ -1,0 +1,14 @@
+{
+  "name": "BiliLive Kaomoji",
+  "description": "bilibili 直播颜文字扩展",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://live.bilibili.com/*"],
+      "js": ["injector.js"],
+      "css": ["bundle.css"]
+    }
+  ],
+  "permissions": ["storage"]
+}

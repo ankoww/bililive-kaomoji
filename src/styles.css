@@ -1,0 +1,47 @@
+/**
+ * Copyright (c) 2021 Anko Lin
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+#bililive-kaomoji-panel {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  z-index: 999;
+
+  background-color: #fff;
+  border: 1px solid #e9eaec;
+}
+
+html[lab-style*='dark'] #bililive-kaomoji-panel {
+  box-shadow: 0 6px 12px 0 var(--dark-1) !important;
+  background-color: #151515 !important;
+  background-color: var(--dark-card) !important;
+  border-color: #1f1f1f !important;
+  border-color: var(--dark-3) !important;
+  color: #e8e8e8;
+  color: var(--dark-font-0);
+}
+
+#bililive-kaomoji-panel:focus {
+  outline: none;
+}
+
+#bililive-kaomoji-panel::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 4px);
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid #fff;
+}
+
+html[lab-style*='dark'] #bililive-kaomoji-panel::after {
+  border-color: #151515 !important;
+  border-color: var(--dark-card) !important;
+}
