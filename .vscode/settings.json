@@ -1,5 +1,18 @@
 {
-    "licenser.projectName": "bililive-kaomoji",
-    "licenser.author": "Anko Lin",
-    "licenser.license": "MIT"
+  "licenser.projectName": "bililive-kaomoji",
+  "licenser.author": "Anko Lin",
+  "licenser.license": "MIT",
+
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[jsx]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  }
 }

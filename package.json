@@ -1,0 +1,28 @@
+{
+  "name": "bililive-kaomoji",
+  "version": "0.1.0",
+  "description": "Browser extension to bring the kaomoji panel back for bilibili live.",
+  "repository": "https://github.com/ankoww/bililive-kaomoji",
+  "author": "Anko <ankoww@outlook.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "dependencies": {
+    "preact": "^10.5.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-alias": "^3.1.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.57.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-import-css": "^3.0.2",
+    "rollup-plugin-includepaths": "^0.2.4"
+  }
+}
