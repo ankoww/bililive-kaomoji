@@ -1,6 +1,6 @@
 {
   "name": "bililive-kaomoji",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Browser extension to bring the kaomoji panel back for bilibili live.",
   "repository": "https://github.com/ankoww/bililive-kaomoji",
   "author": "Anko <ankoww@outlook.com>",
