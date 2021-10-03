@@ -6,6 +6,7 @@
 import alias from '@rollup/plugin-alias'
 import babel from '@rollup/plugin-babel'
 import nodeResolve from '@rollup/plugin-node-resolve'
+
 import copy from 'rollup-plugin-copy'
 import importCSS from 'rollup-plugin-import-css'
 import includePaths from 'rollup-plugin-includepaths'
@@ -13,7 +14,7 @@ import includePaths from 'rollup-plugin-includepaths'
 const config = {
   input: ['src/injector.jsx'],
   output: {
-    file: 'build/injector.js',
+    dir: 'build',
     format: 'iife',
   },
   plugins: [
